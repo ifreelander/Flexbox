@@ -7,19 +7,22 @@ const App = () => {
   return (
     <div className="container">
       <div className="nav">
-        <a href="#" className="navbar">
-          Navbar
-        </a>
-        <a href="#">Home</a>
-        <a href="#">Links</a>
-        <a href="#">Disabled</a>
-        <a href="#">Dropdown</a>
+        <div>
+          <a href="#" className="navbar">
+            Navbar
+          </a>
+          <a href="#">Home</a>
+          <a href="#">Links</a>
+          <a href="#">Disabled</a>
+          <a href="#">Dropdown</a>
+        </div>
+
         <form>
           <label>
             <input type="text" name="Search" placeholder="Search" />
           </label>
+          <button>Search</button>
         </form>
-        <button>Search</button>
       </div>
       <div className="header">
         <div className="header-fontsize">Hello, world!</div>
